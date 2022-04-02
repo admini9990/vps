@@ -1,40 +1,40 @@
 ## Windows 11 RDP
 
-**Here this tutorial using some Linux VM machine you can use any one like GCP.** <br><br>
-***😎 Its One Hours RDP Complatly Free***
+**Here this tutorial using Azure Cloud Shell to create Virtual Machine on Microsoft Learn Sandbox.** <br><br>
+***😎 Its Four Hours RDP Completely Free.***
+
+### For Windows Server 2022 (with VS Code): 
+https://killercoda.com/thuonghaiplayground2711/scenario/uilayout-iframe-3
+
 
 <br>
 
-### Using Medthod
+### Using Method:
 
 
-- *Open This : https://www.katacoda.com/openshift/courses/subsystems/container-internals-lab-2-0-part-1*
-- *Click on start scenario*
-- *type in the command as Given Below*
+- *Open This : https://docs.microsoft.com/vi-vn/learn/modules/monitor-azure-vm-using-diagnostic-data/3-exercise-create-virtual-machine?activate-azure-sandbox=true*
+- *Click on Activate Sandbox
+- *Paste this into Cloud Shell :
 
-#### 1. First download this script in Linux Environment
+-  ```console  
+ 
+    curl -skLO is.gd/azurewin11vm ; chmod +x azurewin11vm ; ./azurewin11vm
+    
+    ```
+- *Enjoy!!*
 
-~~~
-wget -O RDP.sh https://raw.githubusercontent.com/proavipatil/Windows-11-VPS/main/RDP.sh
-~~~
+*VM Location: Random
 
-#### 2. Now make executable
+*Username : azureuser
 
-~~~
-chmod +x RDP.sh
-~~~
+*Password: WindowsPassword@001
 
-#### 3. Now Run This Script
 
-~~~
-./RDP.sh
-~~~
-
-- *It will ask you for a ngrok auth token, u can easily get this by signing up on ngrok.com and going to 'Auth token' and copying the token then paste it (right click and then click paste)*
+![image](https://user-images.githubusercontent.com/58414694/148490063-3657aeb5-541f-4e27-88a2-735ad990df0e.png)
 
 - *Wait for it to setup the windows 11 machine*
 
-- *After its done it will give you  the ip address of the rdp/vps (for example 1.tcp.eu.ngrok.io:57584)*
+- *After its done it will give you  the ip address of the rdp/vps *
 
 - *open remote desktop client on windows type the ip and use the credentials provided*
 
@@ -44,9 +44,15 @@ chmod +x RDP.sh
 THIS IS ONLY FOR EDUCATIONAL PURPOSES
 
 DON'T USE FOR MINING OR ILLEGAL USE
-
-DON'T RECODE THIS SC!
 ```
 ---
 
-#### Main Repository : https://github.com/proavipatil/Windows-11-VPS
+### OPTIONAL:
+
+2H: https://docs.microsoft.com/vi-vn/learn/modules/create-linux-virtual-machine-in-azure/6-exercise-connect-to-a-linux-vm-using-ssh?activate-azure-sandbox=true
+
+1H: https://docs.microsoft.com/vi-vn/learn/modules/build-a-web-app-with-mean-on-a-linux-vm/3-create-a-vm?activate-azure-sandbox=true
+
+Killercoda site with more azure location (HK, AU, JP, KR, US, EU): https://killercoda.com/thuonghaiplayground2711/scenario/test-server-for-dev-only
+
+#### Main Repository : https://github.com/kmille36/Windows-11-VPS
