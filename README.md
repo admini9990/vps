@@ -1,58 +1,36 @@
-## Windows 11 RDP
-
-**Here this tutorial using Azure Cloud Shell to create Virtual Machine on Microsoft Learn Sandbox.** <br><br>
-***😎 Its Four Hours RDP Completely Free.***
-
-### For Windows Server 2022 (with VS Code): 
-https://killercoda.com/thuonghaiplayground2711/scenario/uilayout-iframe-3
-
-
-<br>
-
-### Using Method:
+<p align="center">
+<img src="https://media.giphy.com/media/4dM1U76aAQ3dbE6bc3/giphy.gif" alt="GIF" width="128" height="128"/>
+</p>
+<p align="center">
+<a href="#"><img title="VPS/RDP GRÁTIS" src="https://img.shields.io/badge/VPS/RDP GRÁTIS-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://github.com/Biiuh"><img title="Criador" src="https://img.shields.io/badge/Criador-BiiuhYT-orange.svg?style=for-the-badge&logo=github"></a>
+</p>
 
 
-- *Open This : https://docs.microsoft.com/vi-vn/learn/modules/monitor-azure-vm-using-diagnostic-data/3-exercise-create-virtual-machine?activate-azure-sandbox=true*
-- *Click on Activate Sandbox
-- *Paste this into Cloud Shell :
+#### Tutorial YouTube
 
--  ```console  
- 
-    curl -skLO is.gd/azurewin11vm ; chmod +x azurewin11vm ; ./azurewin11vm
-    
-    ```
-- *Enjoy!!*
+* Link: `https://www.youtube.com/c/HACKMTH`
 
-*VM Location: Random
+#### Tutorial PT/BR
+1. Obrigatório criar a conta em: `https://dashboard.ngrok.com/signup`
+2. Ir nas "Settings" depois em "Secrets" e criar um repositorio secreto com o nome `NGROK_AUTH_TOKEN`
+3. Coloque o token de: `https://dashboard.ngrok.com/get-started/your-authtoken` no repositorio secreto
+4. Vai em "Actions" e procure "BiiuhRDP".
 
-*Username : azureuser
+#### Tutorial EN
+1. Account must be created at: `https://dashboard.ngrok.com/signup`
+2. Go to "Settings" then "Secrets" and create a secret repository named `NGROK_AUTH_TOKEN`
+3. Place the token: `https://dashboard.ngrok.com/get-started/your-authtoken` in the secret repository
+4. Go to "Actions" and look for "BiiuhRDP".
 
-*Password: WindowsPassword@001
+#### Config.
+- IP: `https://dashboard.ngrok.com/endpoints/status`
+- User: `runneradmin`
+- Senha/Password: `Biiuh2021`
+- Tempo/Time: `6 horas/hours`
 
-
-![image](https://user-images.githubusercontent.com/58414694/148490063-3657aeb5-541f-4e27-88a2-735ad990df0e.png)
-
-- *Wait for it to setup the windows 11 machine*
-
-- *After its done it will give you  the ip address of the rdp/vps *
-
-- *open remote desktop client on windows type the ip and use the credentials provided*
-
-
-### WARN
-```
-THIS IS ONLY FOR EDUCATIONAL PURPOSES
-
-DON'T USE FOR MINING OR ILLEGAL USE
-```
----
-
-### OPTIONAL:
-
-2H: https://docs.microsoft.com/vi-vn/learn/modules/create-linux-virtual-machine-in-azure/6-exercise-connect-to-a-linux-vm-using-ssh?activate-azure-sandbox=true
-
-1H: https://docs.microsoft.com/vi-vn/learn/modules/build-a-web-app-with-mean-on-a-linux-vm/3-create-a-vm?activate-azure-sandbox=true
-
-Killercoda site with more azure location (HK, AU, JP, KR, US, EU): https://killercoda.com/thuonghaiplayground2711/scenario/test-server-for-dev-only
-
-#### Main Repository : https://github.com/kmille36/Windows-11-VPS
+#### Config. PC
+- RAM: `7gb`
+- Cores: `2`
